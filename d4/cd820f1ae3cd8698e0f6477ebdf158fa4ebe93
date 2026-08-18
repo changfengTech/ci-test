@@ -1,0 +1,14 @@
+package.json
+  h_9a14f48e32d155 3
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "d4cd820f1ae3cd8698e0f6477ebdf158fa4ebe93",
+  "prompts": {},
+  "humans": {
+    "h_9a14f48e32d155": {
+      "author": "majialu <majialu@xiaohongshu.com>"
+    }
+  }
+}
