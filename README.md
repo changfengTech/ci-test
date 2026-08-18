@@ -71,3 +71,34 @@ pnpm test:e2e --debug
 ```sh
 pnpm lint
 ```
+
+## Automatic Docker deployment
+
+The Dockerfile uses the company Artifactory base images by default, so local
+builds can continue to use the normal command:
+
+```sh
+docker build -t ci-test:local .
+```
+
+The GitHub Actions workflow overrides `NODE_IMAGE` and `NGINX_IMAGE` with the
+official Docker Hub image names, because GitHub-hosted runners do not have
+access to the internal Artifactory.
+
+Every push to `main` builds the application, publishes a Docker image to GHCR,
+and deploys it to the production server. The server must have Docker installed,
+and the deployment user must be allowed to run Docker commands.
+
+Create a GitHub environment named `production`, then add these environment
+secrets:
+
+- `DEPLOY_HOST`: server IP address or hostname
+- `DEPLOY_PORT`: SSH port (optional, defaults to `22`)
+- `DEPLOY_USER`: SSH username
+- `DEPLOY_SSH_KEY`: private key used to connect to the server
+- `DEPLOY_HOST_FINGERPRINT`: server SSH host-key fingerprint in SHA256 format
+- `GHCR_USERNAME`: GitHub username used by the server to pull the image
+- `GHCR_PAT`: GitHub classic PAT with `read:packages` permission
+
+Optionally add an environment variable named `APP_PORT` to change the exposed
+server port. It defaults to port `80`.
