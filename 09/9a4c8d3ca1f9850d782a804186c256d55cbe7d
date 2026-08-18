@@ -1,0 +1,14 @@
+.github/workflows/github-actions-demo.yml
+  h_9a14f48e32d155 1-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "099a4c8d3ca1f9850d782a804186c256d55cbe7d",
+  "prompts": {},
+  "humans": {
+    "h_9a14f48e32d155": {
+      "author": "majialu <majialu@xiaohongshu.com>"
+    }
+  }
+}
