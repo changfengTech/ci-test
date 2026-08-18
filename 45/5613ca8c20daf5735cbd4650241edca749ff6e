@@ -1,0 +1,103 @@
+.editorconfig
+  s_97ce4fe1abf9f2::t_12e812e2d0cfdf 1-8
+.gitattributes
+  s_97ce4fe1abf9f2::t_9e6186249f506f 1
+.gitignore
+  s_97ce4fe1abf9f2::t_ecdcc9ec668a3a 1-42
+.oxlintrc.json
+  s_97ce4fe1abf9f2::t_4a8177c5d29819 1-10
+.prettierrc.json
+  s_97ce4fe1abf9f2::t_b8d346d6bd6cc1 1-6
+.vscode/extensions.json
+  s_97ce4fe1abf9f2::t_1b7d92c460a91e 1-11
+README.md
+  s_97ce4fe1abf9f2::t_2712f6fcdfaaf4 1-73
+e2e/tsconfig.json
+  s_97ce4fe1abf9f2::t_b25367b1621f38 1-4
+e2e/vue.spec.ts
+  s_97ce4fe1abf9f2::t_9ac465ea41345c 1-8
+env.d.ts
+  s_97ce4fe1abf9f2::t_f6ff85be63faf2 1
+eslint.config.ts
+  s_97ce4fe1abf9f2::t_f413a0becce344 1-38
+index.html
+  s_97ce4fe1abf9f2::t_542a081ea2e9b6 1-13
+package.json
+  s_97ce4fe1abf9f2::t_f175050fb57349 1-55
+playwright.config.ts
+  s_97ce4fe1abf9f2::t_c18094c80491ef 1-110
+pnpm-lock.yaml
+  s_8d2b74e64487d0::t_37a721f9d73571 1-4194
+src/App.vue
+  s_8d2b74e64487d0::t_f463e033e36162 1-85
+src/assets/base.css
+  s_97ce4fe1abf9f2::t_e88bb185ae9f90 1-86
+src/assets/logo.svg
+  s_97ce4fe1abf9f2::t_a1d4a7725a06fc 1
+src/assets/main.css
+  s_97ce4fe1abf9f2::t_878b29feb87fa2 1-35
+src/components/HelloWorld.vue
+  s_97ce4fe1abf9f2::t_6bf6a621f5f998 1-41
+src/components/TheWelcome.vue
+  s_97ce4fe1abf9f2::t_9b0a858404052f 1-95
+src/components/WelcomeItem.vue
+  s_97ce4fe1abf9f2::t_75d475d1d47ef2 1-87
+src/components/__tests__/HelloWorld.spec.ts
+  s_97ce4fe1abf9f2::t_762854e180c89e 1-11
+src/components/icons/IconCommunity.vue
+  s_97ce4fe1abf9f2::t_ae5031f24381b8 1-7
+src/components/icons/IconDocumentation.vue
+  s_97ce4fe1abf9f2::t_97061cfd9e4e87 1-7
+src/components/icons/IconEcosystem.vue
+  s_97ce4fe1abf9f2::t_19473efedafe6b 1-7
+src/components/icons/IconSupport.vue
+  s_97ce4fe1abf9f2::t_9ab3d308630354 1-7
+src/components/icons/IconTooling.vue
+  s_97ce4fe1abf9f2::t_f52935a72ed154 1-19
+src/main.ts
+  s_97ce4fe1abf9f2::t_eb86a4431370c7 1-14
+src/router/index.ts
+  s_97ce4fe1abf9f2::t_5079c96b47beca 1-23
+src/stores/counter.ts
+  s_97ce4fe1abf9f2::t_d9410c19d70176 1-12
+src/views/AboutView.vue
+  s_97ce4fe1abf9f2::t_50f8a0571700fd 1-15
+src/views/HomeView.vue
+  s_97ce4fe1abf9f2::t_8791702589e294 1-9
+tsconfig.app.json
+  s_97ce4fe1abf9f2::t_38afa8905f4898 1-18
+tsconfig.json
+  s_97ce4fe1abf9f2::t_a9072b2beac877 1-14
+tsconfig.node.json
+  s_97ce4fe1abf9f2::t_2053834a925bfd 1-27
+tsconfig.vitest.json
+  s_97ce4fe1abf9f2::t_9aaf75f7597c7f 1-19
+vite.config.ts
+  s_97ce4fe1abf9f2::t_49015b1657aedf 1-20
+vitest.config.ts
+  s_97ce4fe1abf9f2::t_03f04af62f2850 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "455613ca8c20daf5735cbd4650241edca749ff6e",
+  "prompts": {},
+  "sessions": {
+    "s_8d2b74e64487d0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a012ea-4811-7530-aac5-e7e47deb3740",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "majialu <majialu@xiaohongshu.com>"
+    },
+    "s_97ce4fe1abf9f2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a012e5-c4e0-7e43-9d1e-b14bc0542bea",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "majialu <majialu@xiaohongshu.com>"
+    }
+  }
+}
