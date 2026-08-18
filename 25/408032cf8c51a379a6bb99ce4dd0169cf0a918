@@ -1,0 +1,35 @@
+Dockerfile
+  s_654aa2195e49b7::t_cb40464ddeb6c6 3,6-15,17-26
+  s_654aa2195e49b7::t_6f6f0837bf93ff 4-5,16
+  s_654aa2195e49b7::t_e384cbc644cf18 1-2
+nginx.conf
+  s_654aa2195e49b7::t_cb40464ddeb6c6 1-18
+.dockerignore
+  s_654aa2195e49b7::t_cb40464ddeb6c6 1-9
+README.md
+  s_654aa2195e49b7::t_cb40464ddeb6c6 74-76,88-104
+  s_654aa2195e49b7::t_6f6f0837bf93ff 77-87
+package.json
+  s_654aa2195e49b7::t_6c9fbe6d9130c0 5
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.22",
+  "base_commit_sha": "25408032cf8c51a379a6bb99ce4dd0169cf0a918",
+  "prompts": {},
+  "humans": {
+    "h_9a14f48e32d155": {
+      "author": "majialu <majialu@xiaohongshu.com>"
+    }
+  },
+  "sessions": {
+    "s_654aa2195e49b7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a013e3-4a24-7ed2-bbc6-83693ee637b1",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "majialu <majialu@xiaohongshu.com>"
+    }
+  }
+}
